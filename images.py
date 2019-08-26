@@ -1,43 +1,16 @@
 #python
 import re
 import os
-<<<<<<< HEAD
-p = os.popen("docker images").read()
-# p = os.popen("df -h").read()
-docker= p
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-p = os.popen("docker images").read()
-# p = os.popen("df -h").read()
-docker= p
-=======
-=======
->>>>>>> 0bc8b81863b4c7fceb570ae81440d46fd3952948
 n=10
 p = os.popen("docker images").read()
 # p = os.popen("df -h").read()
 docker=p
->>>>>>> initial commit
-<<<<<<< HEAD
->>>>>>> initial commit
-=======
->>>>>>> 0bc8b81863b4c7fceb570ae81440d46fd3952948
 columns = [list() for images in range(9)]
 for line in docker.split("\n"):
     line = re.sub(" +", " ", line)
     for images,dock in enumerate(line.split(" ")):
         columns[images].append(dock)
 print("\n")
-<<<<<<< HEAD
-print("List of Images:", columns[2] , "\n")
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-print("List of Images:", columns[2] , "\n")
-=======
-=======
->>>>>>> 0bc8b81863b4c7fceb570ae81440d46fd3952948
 print("Removing header image:", columns[2].pop(0) , "\n")
 
 for images in columns[2]:
@@ -68,8 +41,3 @@ else:
     # print(type(f))
     # print(f, "\n")
 # # print(s)
->>>>>>> initial commit
-<<<<<<< HEAD
->>>>>>> initial commit
-=======
->>>>>>> 0bc8b81863b4c7fceb570ae81440d46fd3952948
