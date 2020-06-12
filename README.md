@@ -1,2 +1,2 @@
 # Python_Scipts-Automating-Sysadmin
-Various scripts that maybe used for testing purposes in lab environment 
+Various scripts that maybe used for testing purposes in lab environment for Systems Administrators
