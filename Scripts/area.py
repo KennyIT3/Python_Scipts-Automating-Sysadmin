@@ -5,11 +5,11 @@ import re
 import shutil
 import subprocess
 
-# rhel6= [ '/var' , '/root', '/tmp']
-rhel5= [ '/area' , '/area1']
+rhel6= [ '/var' , '/root', '/tmp']
+# rhel5= [ '/area' , '/area1']
 
 
-for list in rhel5:
+for list in rhel6:
     # time=os.system("find $list -mtime -1 -regex '.*[A-Za-z].*' -exec ls -l {} \; ")
     os.chdir(list)
     s=os.getcwd() #Gets the current directory

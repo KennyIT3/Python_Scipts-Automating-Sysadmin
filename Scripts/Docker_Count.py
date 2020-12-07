@@ -17,4 +17,4 @@ for line in docker.split("\n"):
 print("\n")
 
 for images in columns[2]:
-     print("List of Images:", images)
+    print("List of Images:", images)

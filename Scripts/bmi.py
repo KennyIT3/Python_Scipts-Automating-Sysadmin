@@ -14,7 +14,7 @@ def bmi():
 		print(f"What is your BMI: {calc}")
 		
 		if calc > 25.1:
-			prin("You are over BMI")
+			print("You are over BMI")
 		
 		elif calc < 18.5:
 			print("You are under BMI")
@@ -22,6 +22,6 @@ def bmi():
 		else:
 			print("Your BMI is normal")
 		
-	expect ValueError:
+	except ValueError:
 		print("Invalid arguments. Please enter in feet and inches")
 bmi()
