@@ -26,8 +26,9 @@ try:
 
     audi = Car("A6", "red", "audi", 160)
     print(f"\nWhat is the name of the car company: {audi.company} \nWhat is the model: {audi.model} \nWhat is the color: {audi.color} \nWhat is the car speed: {audi.speed_limit}")
-    audi.start()
-    audi.accelarate()
-
+    print(f"The car has now:"), audi.start()
+    # audi.accelarate()
+    
 except(ValueError,RuntimeError):
+    "The car model is incorrect"
     pass
