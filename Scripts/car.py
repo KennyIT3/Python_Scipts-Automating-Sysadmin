@@ -31,5 +31,5 @@ try:
     # audi.accelarate()
 
 except(ValueError,RuntimeError):
-    "The car model is incorrect"
+    "The car details is incorrect"
     pass
