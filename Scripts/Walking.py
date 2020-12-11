@@ -40,5 +40,6 @@ try:
     for dir in enumeratedir():
         print (dir)
         print("\nRecursive listing of all dirs in dir:")
+        
 except (RuntimeError, TypeError, NameError):
     pass
