@@ -1,8 +1,8 @@
-for row in range(1,11):
-    for column in range(1,row+1):
-        print('{:3}'.format(column),end="")
-        # print(column,end="")
-    print()
+# # for row in range(1,11):
+# #     for column in range(1,row+1):
+# #         print('{:3}'.format(column),end="")
+# #         # print(column,end="")
+# #     print()
 
 numbers = [-5,8,12,0,3,23,24]
 

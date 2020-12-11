@@ -33,13 +33,13 @@ try:
 
     for path in enumeratepaths():
         print(path)
-        print("\nRecursive listing of all files in paths:")
+        print('\n' "Recursive listing of all files in paths:")
     for file in enumeratefiles():
         print(file)
-        print("\nRecursive listing of all dirs in files:")
+        print('\n' "Recursive listing of all dirs in files:")
     for dir in enumeratedir():
         print (dir)
-        print("\nRecursive listing of all dirs in dir:")
+        print('\n'"Recursive listing of all dirs in dir:")
         
 except (RuntimeError, TypeError, NameError):
     pass
