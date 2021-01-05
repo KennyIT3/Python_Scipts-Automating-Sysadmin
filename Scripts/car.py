@@ -25,10 +25,15 @@ try:
             print("\nHere is the car details:")
             # print("\n")
 
+    # Objects  of the Car 
     jaguar = Car("2020", "F-Type", "Black", "Jaguar", 260)
+    
+    #Print out the objects of the car 
     print(f" \nWhat is the car year: {jaguar.year}\nWhat is the name of the car company: {jaguar.company} \nWhat is the model: {jaguar.model} \nWhat is the color: {jaguar.color} \nWhat is the car speed: {jaguar.speed_limit}")
+    
+    #Print out the function start
     print(f"The car has now:"), jaguar.start()
-    # audi.accelarate()
+    
 
 except(ValueError,RuntimeError):
     "The car details is incorrect"
