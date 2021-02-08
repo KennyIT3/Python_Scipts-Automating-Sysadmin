@@ -9,7 +9,6 @@ pipeline {
         stage('Testing Repo') { 
             steps {
                 echo "Testing Code"
-               
             }
         }
         stage('Deploy Repo') { 
