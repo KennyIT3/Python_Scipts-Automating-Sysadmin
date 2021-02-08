@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Build Repo') { 
             steps {
-                sh "git clone https://github.com/KennyIT3/Python_Scipts-Automating-Sysadmin.git " 
+                sh "git clone https://github.com/KennyIT3/Python_Scipts-Automating-Sysadmin.git" 
             }
         }
         stage('Testing Repo') { 
             steps {
-                echo 'Testing Code'
-                sh 'date'
+                echo "Testing Code"
+               
             }
         }
         stage('Deploy Repo') { 
