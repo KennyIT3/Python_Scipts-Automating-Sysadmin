@@ -6,8 +6,8 @@ import platform
 
 print("Checking docker")
 d = "docker.service"
-check_cmd= ["ps",
-            "-C",
+check_cmd= ["systemctl",
+            "status",
             d]
 
 test=subprocess.call(check_cmd)

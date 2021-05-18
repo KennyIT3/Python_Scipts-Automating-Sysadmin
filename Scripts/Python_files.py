@@ -24,7 +24,7 @@ for file in path_window.glob('*.py'):
 	print("")
 print()	
 
-Print(f"How many python files are in this directory: ", python)
+print(f"How many python files are in this directory: ", python)
 if python > 5:
 	print("That's alot of files")
 else:
