@@ -20,7 +20,7 @@ for list in rhel6:
 
     n=os.listdir(list)
     print("Here are the files")
-    
+
     for file in n:
         print(file)
 
